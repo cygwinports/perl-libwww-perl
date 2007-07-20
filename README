@@ -1,0 +1,161 @@
+perl-libwww-perl
+-------------------------------------------
+Bundle of Perl modules for manuvering the Internet.
+
+Runtime requirements:
+  perl-5.8.7-5
+  perl-HTML-Parser-3.55-1
+  perl-URI-1.35-2
+
+Canonical homepage:
+  http://search.cpan.org/~gaas/libwww-perl/
+
+Canonical download:
+  http://www.cpan.org/authors/id/G/GA/GAAS/
+
+-------------------------------------------
+
+Build instructions:
+  unpack perl-libwww-perl-5.805-X-src.tar.bz2
+    if you use setup to install this src package, it will be
+	 unpacked under /usr/src automatically
+  cd /usr/src
+  cygport ./perl-libwww-perl-5.805-X.cygport all
+
+This will create:
+  /usr/src/perl-libwww-perl-5.805-X-src.tar.bz2
+  /usr/src/perl-libwww-perl-5.805-X.tar.bz2
+
+-------------------------------------------
+
+Files included in the binary package:
+
+  /etc/postinstall/perl-libwww-perl.sh
+  /usr/bin/lwp-download
+  /usr/bin/lwp-mirror
+  /usr/bin/lwp-request
+  /usr/bin/lwp-rget
+  /usr/lib/perl5/vendor_perl/5.8/Bundle/LWP.pm
+  /usr/lib/perl5/vendor_perl/5.8/File/Listing.pm
+  /usr/lib/perl5/vendor_perl/5.8/HTML/Form.pm
+  /usr/lib/perl5/vendor_perl/5.8/HTTP/Cookies.pm
+  /usr/lib/perl5/vendor_perl/5.8/HTTP/Cookies/Microsoft.pm
+  /usr/lib/perl5/vendor_perl/5.8/HTTP/Cookies/Netscape.pm
+  /usr/lib/perl5/vendor_perl/5.8/HTTP/Daemon.pm
+  /usr/lib/perl5/vendor_perl/5.8/HTTP/Date.pm
+  /usr/lib/perl5/vendor_perl/5.8/HTTP/Headers.pm
+  /usr/lib/perl5/vendor_perl/5.8/HTTP/Headers/Auth.pm
+  /usr/lib/perl5/vendor_perl/5.8/HTTP/Headers/ETag.pm
+  /usr/lib/perl5/vendor_perl/5.8/HTTP/Headers/Util.pm
+  /usr/lib/perl5/vendor_perl/5.8/HTTP/Message.pm
+  /usr/lib/perl5/vendor_perl/5.8/HTTP/Negotiate.pm
+  /usr/lib/perl5/vendor_perl/5.8/HTTP/Request.pm
+  /usr/lib/perl5/vendor_perl/5.8/HTTP/Request/Common.pm
+  /usr/lib/perl5/vendor_perl/5.8/HTTP/Response.pm
+  /usr/lib/perl5/vendor_perl/5.8/HTTP/Status.pm
+  /usr/lib/perl5/vendor_perl/5.8/LWP.pm
+  /usr/lib/perl5/vendor_perl/5.8/LWP/Authen/Basic.pm
+  /usr/lib/perl5/vendor_perl/5.8/LWP/Authen/Digest.pm
+  /usr/lib/perl5/vendor_perl/5.8/LWP/Authen/Ntlm.pm
+  /usr/lib/perl5/vendor_perl/5.8/LWP/ConnCache.pm
+  /usr/lib/perl5/vendor_perl/5.8/LWP/Debug.pm
+  /usr/lib/perl5/vendor_perl/5.8/LWP/DebugFile.pm
+  /usr/lib/perl5/vendor_perl/5.8/LWP/MediaTypes.pm
+  /usr/lib/perl5/vendor_perl/5.8/LWP/MemberMixin.pm
+  /usr/lib/perl5/vendor_perl/5.8/LWP/Protocol.pm
+  /usr/lib/perl5/vendor_perl/5.8/LWP/Protocol/GHTTP.pm
+  /usr/lib/perl5/vendor_perl/5.8/LWP/Protocol/cpan.pm
+  /usr/lib/perl5/vendor_perl/5.8/LWP/Protocol/data.pm
+  /usr/lib/perl5/vendor_perl/5.8/LWP/Protocol/file.pm
+  /usr/lib/perl5/vendor_perl/5.8/LWP/Protocol/ftp.pm
+  /usr/lib/perl5/vendor_perl/5.8/LWP/Protocol/gopher.pm
+  /usr/lib/perl5/vendor_perl/5.8/LWP/Protocol/http.pm
+  /usr/lib/perl5/vendor_perl/5.8/LWP/Protocol/http10.pm
+  /usr/lib/perl5/vendor_perl/5.8/LWP/Protocol/https.pm
+  /usr/lib/perl5/vendor_perl/5.8/LWP/Protocol/https10.pm
+  /usr/lib/perl5/vendor_perl/5.8/LWP/Protocol/loopback.pm
+  /usr/lib/perl5/vendor_perl/5.8/LWP/Protocol/mailto.pm
+  /usr/lib/perl5/vendor_perl/5.8/LWP/Protocol/nntp.pm
+  /usr/lib/perl5/vendor_perl/5.8/LWP/Protocol/nogo.pm
+  /usr/lib/perl5/vendor_perl/5.8/LWP/RobotUA.pm
+  /usr/lib/perl5/vendor_perl/5.8/LWP/Simple.pm
+  /usr/lib/perl5/vendor_perl/5.8/LWP/UserAgent.pm
+  /usr/lib/perl5/vendor_perl/5.8/LWP/media.types
+  /usr/lib/perl5/vendor_perl/5.8/Net/HTTP.pm
+  /usr/lib/perl5/vendor_perl/5.8/Net/HTTP/Methods.pm
+  /usr/lib/perl5/vendor_perl/5.8/Net/HTTP/NB.pm
+  /usr/lib/perl5/vendor_perl/5.8/Net/HTTPS.pm
+  /usr/lib/perl5/vendor_perl/5.8/WWW/RobotRules.pm
+  /usr/lib/perl5/vendor_perl/5.8/WWW/RobotRules/AnyDBM_File.pm
+  /usr/lib/perl5/vendor_perl/5.8/cygwin/auto/LWP/.packlist
+  /usr/lib/perl5/vendor_perl/5.8/lwpcook.pod
+  /usr/lib/perl5/vendor_perl/5.8/lwptut.pod
+  /usr/share/doc/Cygwin/perl-libwww-perl-5.806.README
+  /usr/share/doc/perl-libwww-perl-5.806/AUTHORS
+  /usr/share/doc/perl-libwww-perl-5.806/Changes
+  /usr/share/doc/perl-libwww-perl-5.806/README
+  /usr/share/man/man1/lwp-download.1.gz
+  /usr/share/man/man1/lwp-mirror.1.gz
+  /usr/share/man/man1/lwp-request.1.gz
+  /usr/share/man/man1/lwp-rget.1.gz
+  /usr/share/man/man3/Bundle.LWP.3pm.gz
+  /usr/share/man/man3/File.Listing.3pm.gz
+  /usr/share/man/man3/HTML.Form.3pm.gz
+  /usr/share/man/man3/HTTP.Cookies.3pm.gz
+  /usr/share/man/man3/HTTP.Cookies.Microsoft.3pm.gz
+  /usr/share/man/man3/HTTP.Cookies.Netscape.3pm.gz
+  /usr/share/man/man3/HTTP.Daemon.3pm.gz
+  /usr/share/man/man3/HTTP.Date.3pm.gz
+  /usr/share/man/man3/HTTP.Headers.3pm.gz
+  /usr/share/man/man3/HTTP.Headers.Util.3pm.gz
+  /usr/share/man/man3/HTTP.Message.3pm.gz
+  /usr/share/man/man3/HTTP.Negotiate.3pm.gz
+  /usr/share/man/man3/HTTP.Request.3pm.gz
+  /usr/share/man/man3/HTTP.Request.Common.3pm.gz
+  /usr/share/man/man3/HTTP.Response.3pm.gz
+  /usr/share/man/man3/HTTP.Status.3pm.gz
+  /usr/share/man/man3/LWP.3pm.gz
+  /usr/share/man/man3/LWP.Authen.Ntlm.3pm.gz
+  /usr/share/man/man3/LWP.ConnCache.3pm.gz
+  /usr/share/man/man3/LWP.Debug.3pm.gz
+  /usr/share/man/man3/LWP.DebugFile.3pm.gz
+  /usr/share/man/man3/LWP.MediaTypes.3pm.gz
+  /usr/share/man/man3/LWP.MemberMixin.3pm.gz
+  /usr/share/man/man3/LWP.Protocol.3pm.gz
+  /usr/share/man/man3/LWP.RobotUA.3pm.gz
+  /usr/share/man/man3/LWP.Simple.3pm.gz
+  /usr/share/man/man3/LWP.UserAgent.3pm.gz
+  /usr/share/man/man3/Net.HTTP.3pm.gz
+  /usr/share/man/man3/Net.HTTP.NB.3pm.gz
+  /usr/share/man/man3/WWW.RobotRules.3pm.gz
+  /usr/share/man/man3/WWW.RobotRules.AnyDBM_File.3pm.gz
+  /usr/share/man/man3/lwpcook.3pm.gz
+  /usr/share/man/man3/lwptut.3pm.gz
+  /usr/share/perl/cygwin-pods/5.8/libwww-perl.pod
+
+------------------
+
+Port Notes:
+
+----- version 5.805-1 -----
+Version bump, built with cygport.
+
+----- version 5.805-1 -----
+Version bump, built for perl-5.8.7.
+
+----- version 5.801-1 -----
+Rebuilt against perl-5.8.6.
+
+----- version 5.801-1 -----
+Upstream bugfix release; see Changes for details.
+Now installs into the vendor_perl hierarchy.
+
+----- version 5.800-1 -----
+New upstream release; see Changes for details.
+
+----- version 5.76-1 -----
+Initial release for Cygwin.
+
+
+Cygwin port maintained by:
+http://cygwinports.dotsrc.org/

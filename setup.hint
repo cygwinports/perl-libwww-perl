@@ -1,0 +1,4 @@
+category: Net Perl
+requires: perl perl-URI perl-HTML-Parser
+sdesc: "Bundle of Internet perl modules"
+ldesc: "Bundle of Perl modules for manuvering the Internet."
