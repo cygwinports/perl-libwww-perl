@@ -16,15 +16,15 @@ Canonical download:
 -------------------------------------------
 
 Build instructions:
-  unpack perl-libwww-perl-5.807-X-src.tar.bz2
+  unpack perl-libwww-perl-5.808-X-src.tar.bz2
     if you use setup to install this src package, it will be
 	 unpacked under /usr/src automatically
   cd /usr/src
-  cygport ./perl-libwww-perl-5.807-X.cygport all
+  cygport ./perl-libwww-perl-5.808-X.cygport all
 
 This will create:
-  /usr/src/perl-libwww-perl-5.807-X-src.tar.bz2
-  /usr/src/perl-libwww-perl-5.807-X.tar.bz2
+  /usr/src/perl-libwww-perl-5.808-X-src.tar.bz2
+  /usr/src/perl-libwww-perl-5.808-X.tar.bz2
 
 -------------------------------------------
 
@@ -90,10 +90,10 @@ Files included in the binary package:
   /usr/lib/perl5/vendor_perl/5.8/cygwin/auto/LWP/.packlist
   /usr/lib/perl5/vendor_perl/5.8/lwpcook.pod
   /usr/lib/perl5/vendor_perl/5.8/lwptut.pod
-  /usr/share/doc/Cygwin/perl-libwww-perl-5.807.README
-  /usr/share/doc/perl-libwww-perl-5.807/AUTHORS
-  /usr/share/doc/perl-libwww-perl-5.807/Changes
-  /usr/share/doc/perl-libwww-perl-5.807/README
+  /usr/share/doc/Cygwin/perl-libwww-perl-5.808.README
+  /usr/share/doc/perl-libwww-perl-5.808/AUTHORS
+  /usr/share/doc/perl-libwww-perl-5.808/Changes
+  /usr/share/doc/perl-libwww-perl-5.808/README
   /usr/share/man/man1/lwp-download.1.gz
   /usr/share/man/man1/lwp-mirror.1.gz
   /usr/share/man/man1/lwp-request.1.gz
@@ -137,7 +137,7 @@ Files included in the binary package:
 
 Port Notes:
 
------ version 5.807-1 -----
+----- version 5.808-1 -----
 Version bump.
 
 ----- version 5.806-1 -----

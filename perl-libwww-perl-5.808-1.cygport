@@ -1,0 +1,10 @@
+CPAN_AUTHOR="gaas"
+inherit perl
+
+src_compile() {
+	lndirs
+	cd ${B}
+	# accept the default answers to all the questions
+	while true; do echo; done | perl_compile
+}
+
